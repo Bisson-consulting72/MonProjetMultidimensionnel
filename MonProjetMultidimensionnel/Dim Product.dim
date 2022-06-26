@@ -1,0 +1,578 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="de12af1b-7268-4195-9848-ae6996c539b7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Product</ID>
+  <Name>Dim Product</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11" scrolltop="-2467" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="87" x="10636" y="14288" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimProductSubcategory" left="20" top="0" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="5530" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009a150000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimProductSubcategory" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimProductCategory" left="7950" top="211" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="5054" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000be1300004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimProductCategory" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Product" left="602" top="5972" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e11000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimProduct" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5250" top="1386" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimProductSubcategory_DimProductCategory]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="22" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7950" y="1785" />
+              <point x="6750" y="1785" />
+              <point x="6750" y="1786" />
+              <point x="5550" y="1786" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2386" top="3073" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimProduct_DimProductSubcategory]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="9" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2785" y="3572" />
+              <point x="2785" y="5972" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-11</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2467</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>87</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="226">
+            <Shape Id="Product Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Product Key" />
+                <Attribute Id="English Product Name" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Product Subcategory Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Product Subcategory Key" />
+                <Attribute Id="English Product Subcategory Name" />
+              </Attributes>
+              <Position x="307" y="20" />
+            </Shape>
+            <Shape Id="Product Category Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Product Category Key" />
+                <Attribute Id="English Product Category Name" />
+              </Attributes>
+              <Position x="595" y="20" />
+            </Shape>
+            <Shape Id="French Product Category Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="French Product Category Name" />
+              </Attributes>
+              <Position x="882" y="20" />
+            </Shape>
+            <Shape Id="French Product Subcategory Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="French Product Subcategory Name" />
+              </Attributes>
+              <Position x="595" y="68" />
+            </Shape>
+            <Shape Id="French Product Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="French Product Name" />
+              </Attributes>
+              <Position x="307" y="116" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9c4883c5-729e-421e-991e-c262cb60549c">
+    <DataSourceViewID>MaVueFacturesRevendeurs</DataSourceViewID>
+  </Source>
+  <UnknownMember>Hidden</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="df246261-5014-4e05-97be-3304f54e00ef">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="1c53da54-8226-4b3b-9874-07f6d6e1ad79">
+      <Language>1036</Language>
+      <Caption>Produis</Caption>
+    </Translation>
+    <Translation dwd:design-time-name="dbff5041-22bc-4717-9a63-166264e52018">
+      <Language>1033</Language>
+      <Caption>Products</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="df6a8e40-e6e2-4b02-a9a8-d5de5bb51968">
+      <ID>Product Key</ID>
+      <Name>Product Key</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>606</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d62d6aea-68cb-4592-b002-5e9ef1c7aa76">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4463c53a-a944-4a15-8c65-a75c2b32fcf6">
+            <TableID>dbo_DimProduct</TableID>
+            <ColumnID>ProductKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="ee5ba4c0-5350-4c07-8c0e-5fbcfe22d5b4">
+          <Language>1036</Language>
+          <Caption>ID Produit</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="ae4170b7-7231-451f-9716-e996c3c754a2">
+          <Language>1033</Language>
+          <Caption>Product Key</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d3f8dc9d-1361-4d04-995d-53791e5dd1bc">
+          <AttributeID>English Product Name</AttributeID>
+          <Name>English Product Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="44415733-4cf7-4fc4-a8e7-c006bc94ae7a">
+          <AttributeID>French Product Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>French Product Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9a68ada0-74b4-4293-9a4c-d427071458e5">
+          <AttributeID>Product Subcategory Key</AttributeID>
+          <Name>Product Subcategory Key</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="091d6a23-6a93-4ac7-98af-170e40153445">
+      <ID>English Product Name</ID>
+      <Name>English Product Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cd0c0783-8a8f-48e7-94e2-85c57c07f416">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0862809d-8c40-4605-bc95-c240da49ca42">
+            <TableID>dbo_DimProduct</TableID>
+            <ColumnID>EnglishProductName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="b7598d91-a182-48e6-a76a-0baf85f38241">
+          <Language>1036</Language>
+          <Caption>Libellé anglais produit</Caption>
+          <DisplayFolder>Anglais</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="64d3dd38-43d2-40c0-9401-1f23269444bb">
+          <Language>1033</Language>
+          <Caption>English Product Name</Caption>
+          <DisplayFolder>English</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>English</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d9447b53-ebf3-47a7-bb19-cd3640cd2b88">
+      <ID>French Product Name</ID>
+      <Name>French Product Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2cd9432b-25e6-4909-978e-285ac65c1225">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e4d311bd-aedb-4977-bf31-930a86295f53">
+            <TableID>dbo_DimProduct</TableID>
+            <ColumnID>FrenchProductName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="8f4052f3-d43d-4394-9f4a-7c2742184737">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <NullProcessing>ZeroOrBlank</NullProcessing>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1e1d54c9-3722-4339-87f0-8877cc3a06e6">
+          <TableID>dbo_DimProduct</TableID>
+          <ColumnID>FrenchProductName</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="7895a57b-3042-4dbb-8d22-66bd3638bbd1">
+          <Language>1036</Language>
+          <Caption>Produit</Caption>
+          <DisplayFolder>Français</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="e42c2f8d-a28a-4b47-9d1b-41c39566b131">
+          <Language>1033</Language>
+          <Caption>French Product Name</Caption>
+          <DisplayFolder>French</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>Français</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fca2cd86-00bb-4b54-b12f-0c98c5f1b843">
+      <ID>Product Subcategory Key</ID>
+      <Name>Product Subcategory Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="33c86265-effc-4a58-b868-f2ae59aa541e">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3170adc4-d9c3-41a3-a1a2-e6a81fd0d6f4">
+            <TableID>dbo_DimProductSubcategory</TableID>
+            <ColumnID>ProductSubcategoryKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="48eb970a-c237-462e-9fbd-0eba44ce3ad1">
+          <Language>1036</Language>
+          <Caption>Id sous catégorie produit</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="7db610cd-bfdc-4eba-a186-13e9ca11418b">
+          <Language>1033</Language>
+          <Caption>Product Subcategory Key</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c3512df5-efca-4017-bcc2-a85bae0d936c">
+          <AttributeID>English Product Subcategory Name</AttributeID>
+          <Name>English Product Subcategory Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d0d81341-d1ea-4775-a930-f40330fa08ad">
+          <AttributeID>French Product Subcategory Name</AttributeID>
+          <Name>French Product Subcategory Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d8ca2baf-c05a-4197-a53a-2d617f746a23">
+          <AttributeID>Product Category Key</AttributeID>
+          <Name>Product Category Key</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1d626a3b-b900-47ac-9839-fa5fcffd9c5d">
+      <ID>English Product Subcategory Name</ID>
+      <Name>English Product Subcategory Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="18d75ff3-3078-461c-9e49-2ed7d6ec05cb">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9218b130-0ddc-4f80-b3b4-72cbdad05b28">
+            <TableID>dbo_DimProductSubcategory</TableID>
+            <ColumnID>EnglishProductSubcategoryName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="0ee789e5-c425-46d3-894b-408d9abb04cb">
+          <Language>1036</Language>
+          <Caption>libellé anglais sous catégorie produit</Caption>
+          <DisplayFolder>Anglais</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="a9ba8079-6b8b-4881-a0a4-6b654e3ec3fd">
+          <Language>1033</Language>
+          <Caption>English Product Subcategory Name</Caption>
+          <DisplayFolder>English</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>English</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4606e141-b877-4ddb-8c51-f29e0a2ddd4e">
+      <ID>French Product Subcategory Name</ID>
+      <Name>French Product Subcategory Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c95ff559-6512-4922-9ef7-215a8ef58620">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aadc5435-35bd-4f62-9f88-ca6323a0a841">
+            <TableID>dbo_DimProductSubcategory</TableID>
+            <ColumnID>FrenchProductSubcategoryName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="53f12b70-4e18-47cf-83ff-149841a174ab">
+          <Language>1036</Language>
+          <Caption>Sous catégorie produit</Caption>
+          <DisplayFolder>Français</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="b6c13cde-9df3-4b0d-ab94-ea57cb03236c">
+          <Language>1033</Language>
+          <Caption>French Product Subcategory Name</Caption>
+          <DisplayFolder>French</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>Français</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5e38de27-cf4b-466d-97d9-9ad47cc6830a">
+      <ID>Product Category Key</ID>
+      <Name>Product Category Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0b069485-b182-448c-b244-745fd14ce910">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="09f3468c-3868-4d97-9b0b-acc4173e52ec">
+            <TableID>dbo_DimProductCategory</TableID>
+            <ColumnID>ProductCategoryKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="99d7debd-4663-4ce5-8f3a-f8d1ab2a07ac">
+          <Language>1036</Language>
+          <Caption>Id catégorie produit</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="5450559b-9d53-49e5-a654-8fa1e9a178b5">
+          <Language>1033</Language>
+          <Caption>Product Category Key</Caption>
+        </Translation>
+      </Translations>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="5335535e-9dc1-4416-81d0-415bf3452fc1">
+          <AttributeID>English Product Category Name</AttributeID>
+          <Name>English Product Category Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="54be1c98-bdd0-47b7-ad2f-f4f92f69c9d1">
+          <AttributeID>French Product Category Name</AttributeID>
+          <Name>French Product Category Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="70f3e391-5692-42d5-8aa8-9660ce1b4544">
+      <ID>English Product Category Name</ID>
+      <Name>English Product Category Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b20c71cc-471f-485e-9700-fd5c09d12800">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a7687711-ed27-4ef7-ac9c-a9b837f4d895">
+            <TableID>dbo_DimProductCategory</TableID>
+            <ColumnID>EnglishProductCategoryName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="b1ffeebe-9398-4394-aee7-8da1986f1943">
+          <Language>1036</Language>
+          <Caption>Libellé angalis catégorie produit</Caption>
+          <DisplayFolder>Anglais</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="acadc6f5-b1e2-490e-aa18-b345e9d7b290">
+          <Language>1033</Language>
+          <Caption>English Product Category Name</Caption>
+          <DisplayFolder>English</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>English</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="644c4d54-ca85-46a6-97d2-10f83fdbe2dc">
+      <ID>French Product Category Name</ID>
+      <Name>French Product Category Name</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f6be64d2-ceb7-402c-9e3d-6989561f0ebc">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="810c243a-41db-46da-ac81-336eb1478b89">
+            <TableID>dbo_DimProductCategory</TableID>
+            <ColumnID>FrenchProductCategoryName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="558fb338-aa67-43fc-b723-193d0c850933">
+          <Language>1036</Language>
+          <Caption>Catégorie produit</Caption>
+          <DisplayFolder>Français</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="e11bbbd8-43d4-47ff-bc66-c9d4b56a47dc">
+          <Language>1033</Language>
+          <Caption>French Product Category Name</Caption>
+          <DisplayFolder>French</DisplayFolder>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyDisplayFolder>Français</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="78a7fba6-dae3-4a66-b14f-645d1aafbe11">
+      <ID>Hiérarchie</ID>
+      <Name>Catégorie de produits</Name>
+      <DisplayFolder>Français</DisplayFolder>
+      <Translations>
+        <Translation dwd:design-time-name="f3a86bed-3400-4f60-8965-d69202d910eb">
+          <Language>1036</Language>
+          <DisplayFolder>Français</DisplayFolder>
+        </Translation>
+        <Translation dwd:design-time-name="49f544c6-4381-42fe-b7a6-fe82eb755dbb">
+          <Language>1033</Language>
+          <Caption>Products Category</Caption>
+          <DisplayFolder>French</DisplayFolder>
+        </Translation>
+      </Translations>
+      <Levels>
+        <Level dwd:design-time-name="bc345f29-8d1e-45fa-a4d6-d0bef279c459">
+          <ID>French Product Category Name</ID>
+          <Name>French Product Category Name</Name>
+          <SourceAttributeID>French Product Category Name</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="5090c207-5740-4d92-849e-a0fa2fb6ad65">
+              <Language>1036</Language>
+              <Caption>Catégorie produit</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="568fb4d7-b192-4fc7-902a-31cef306e8ae">
+              <Language>1033</Language>
+              <Caption>French Product Category Name</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="54a7755f-fb91-4c62-aefe-8bc77f0cecc0">
+          <ID>French Product Subcategory Name</ID>
+          <Name>French Product Subcategory Name</Name>
+          <SourceAttributeID>French Product Subcategory Name</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="0a57916e-1d30-4eeb-a356-8bef405b4ba5">
+              <Language>1036</Language>
+              <Caption>Sous catégorie produit</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="866f707d-1cb5-46dc-a8ad-ccf1fb67f722">
+              <Language>1033</Language>
+              <Caption>French Product Subcategory Name</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="bcc42d06-33df-405c-b4e2-22f5ee2d43b7">
+          <ID>French Product Name</ID>
+          <Name>French Product Name</Name>
+          <SourceAttributeID>French Product Name</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="b9cb4e3c-0faa-4352-8937-271f7f5907ca">
+              <Language>1036</Language>
+              <Caption>Produit</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="a0e9f934-ef65-4069-8ebb-6062e9b0f6e0">
+              <Language>1033</Language>
+              <Caption>French Product Name</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
